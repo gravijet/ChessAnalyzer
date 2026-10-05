@@ -10,6 +10,6 @@ npm run test
 npm run lint
 ```
 
-The build copies the Stockfish engine into `public/stockfish/`. This generated directory is excluded from Git. Games and analysis are stored locally in IndexedDB.
+The build copies the Stockfish engine into `public/stockfish/`. Games and analysis are stored locally in IndexedDB.
 
 The threaded engine requires cross-origin isolation headers: `Cross-Origin-Opener-Policy: same-origin` and `Cross-Origin-Embedder-Policy: require-corp`.
