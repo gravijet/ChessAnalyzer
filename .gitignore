@@ -11,3 +11,18 @@ public/stockfish
 
 .dev.vars*
 !.dev.vars.example
+
+**/node_modules/
+!.env.sample
+!.env.template
+!**/.env.example
+!**/.env.sample
+!**/.env.template
+.claude/
+.codex/
+*.jks
+*.keystore
+key.properties
+google-services.json
+firebase-service-account.json
+auth_cache/
